@@ -10,8 +10,9 @@ require(__DIR__ . '/../vendor/yiisoft/yii2/Yii.php');
 
 //  根据不同的环境引入不同的配置文件
 if(TESTING){
-    $config = require(__DIR__ . '/../config/web.php');
-} else {
-    $config = require(__DIR__ . '/../config/web.php');
+    $config = require(__DIR__ . '/../config/test/web.php');
+} elseif(PRODUCTION) {
+    $config = require(__DIR__ . '/../config/product/web.php');
 }
+
 (new yii\web\Application($config))->run();

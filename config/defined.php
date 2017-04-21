@@ -10,7 +10,7 @@ defined('TESTING') or define('TESTING', is_file('/etc/php.env.testing'));
 // comment out the following two lines when deployed to production
 if(TESTING){
     defined('YII_DEBUG') or define('YII_DEBUG', true);
-} else {
+} elseif(PRODUCTION) {
     define('YII_DEBUG', false);
 }
 
