@@ -1,0 +1,54 @@
+<php
+//  文档原地址：http://blog.csdn.net/u012979009/article/details/51464030
+
+//==========================  这个地址页面的内容，怕别人删掉了，记录下来  ===========================
+最近在学习yii2的框架，因为国内关于yii2框架的具体中文资料还是比较少，下面整理一些比较好的中文资料。
+
+（1）yii2的底层和架构方面
+
+  a)http://www.yiichina.com/doc/guide/2.0
+
+yii2的目前的官方中文社区文档，翻译还算是比较明白，最好从这里入手
+
+
+  b)http://www.yiichina.com/tutorial/773
+
+      yii2的关于底层方面的解说，说的比较通俗易解
+
+
+  c)http://www.digpage.com/
+
+    牛人从底层分析说解yii2,设计的整个设计都又说到
+
+
+
+  d)http://yii2.techbrood.com/guide-logging.html
+
+    yii2的API的中文文档的翻译，非常实用，虽然有些翻译不是很明白，但对于我们的学习很有帮助
+
+
+
+  e)http://www.phperz.com/article/15/0801/145364.html
+
+   yii2的API的中文文档的翻译
+
+
+  f)http://www.phpxs.com/post/yii2
+
+  编程学习网中关于yii2的部分，设及到的知识点还是很丰富的，对大家的理解很有帮助。
+
+
+  g)http://www.smister.com/course/list.html?id=5
+
+  yii2视频教程，实战项目，容易上手
+
+
+
+  h)https://github.com/forecho/awesome-yii2
+
+  关于yii2的干货集合，在github上。
+
+
+  I)多看源代码，多写，多练习，多做笔记！
+
+  
